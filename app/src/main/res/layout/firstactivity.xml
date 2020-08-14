@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#A87146"
+    android:background="@drawable/page_finder1"
     tools:context=".FirstActivity">
 
     <EditText
@@ -22,16 +22,16 @@
 
     <EditText
         android:id="@+id/number2"
-        android:layout_width="205dp"
-        android:layout_height="50dp"
+        android:layout_width="202dp"
+        android:layout_height="44dp"
         android:ems="10"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.781"
+        app:layout_constraintHorizontal_bias="0.775"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.34" />
+        app:layout_constraintVertical_bias="0.336" />
 
     <TextView
         android:id="@+id/input1"

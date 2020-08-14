@@ -73,10 +73,10 @@ public class Secondactivity extends AppCompatActivity {
         devide.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                int number_1 = Integer.parseInt(number1.getText().toString());
-                int number_2 = Integer.parseInt(number2.getText().toString());
+                Integer number_1 = Integer.parseInt(number1.getText().toString());
+                Integer number_2 = Integer.parseInt(number2.getText().toString());
 
-                int sum = number_1 / number_2;
+                float sum = (float) number_1 / number_2;
                 result.setText("Answer: " +String.valueOf(sum));
             }
         });

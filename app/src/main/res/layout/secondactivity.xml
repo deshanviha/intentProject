@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#4CCADA">
+    android:background="@drawable/my_finder1">
 
     <EditText
         android:id="@+id/number2.2"
@@ -59,19 +59,6 @@
         app:layout_constraintVertical_bias="0.233" />
 
     <Button
-        android:id="@+id/devide"
-        android:layout_width="139dp"
-        android:layout_height="59dp"
-        android:text="/"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.75"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.746" />
-
-    <Button
         android:id="@+id/minus"
         android:layout_width="139dp"
         android:layout_height="59dp"
@@ -82,20 +69,7 @@
         app:layout_constraintHorizontal_bias="0.75"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.658" />
-
-    <Button
-        android:id="@+id/plus"
-        android:layout_width="139dp"
-        android:layout_height="59dp"
-        android:text="+"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.21"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.658" />
+        app:layout_constraintVertical_bias="0.72" />
 
     <Button
         android:id="@+id/multi"
@@ -105,14 +79,40 @@
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.21"
+        app:layout_constraintHorizontal_bias="0.209"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.745" />
+        app:layout_constraintVertical_bias="0.832" />
+
+    <Button
+        android:id="@+id/devide"
+        android:layout_width="139dp"
+        android:layout_height="59dp"
+        android:text="/"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.832" />
+
+    <Button
+        android:id="@+id/plus"
+        android:layout_width="139dp"
+        android:layout_height="59dp"
+        android:text="+"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.209"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.722" />
 
     <TextView
         android:id="@+id/result"
-        android:layout_width="281dp"
+        android:layout_width="323dp"
         android:layout_height="55dp"
         android:background="#4EABD5"
         android:text="Answer:"
